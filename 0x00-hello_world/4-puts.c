@@ -2,7 +2,8 @@
 #include <string.h>
 
 /*
- * Print string
+ * Description: A program to
+ * print a string
  */
 int main(void)
 {
