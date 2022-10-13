@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
-/*
- * main  - print a string
-(*
- * Description: print a string)?
+/**
+ *
+ * main - Entry point
+ *
+ * Description: prints "\"Programming is like building a multilingual puzzle"
+ *
+ * Return: 0
+ *
  */
 int main(void)
 {
