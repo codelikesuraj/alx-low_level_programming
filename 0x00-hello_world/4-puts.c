@@ -2,7 +2,9 @@
 #include <string.h>
 
 /*
- * main - print a string
+ * main  - print a string
+(*
+ * Description: print a string)?
  */
 int main(void)
 {
