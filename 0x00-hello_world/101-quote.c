@@ -2,7 +2,6 @@
 #include <unistd.h>
 
 /**
- *
  * main - prints some strings
  * Return: Always 0 (Success)
  */
