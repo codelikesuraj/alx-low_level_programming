@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /*
- * main - print whether a number is negative,
- * positive or zero
+ * main - assigns a random number to int n
+ * and prints it
  * Return: Always 0 (Success)
  */
 int main(void)
