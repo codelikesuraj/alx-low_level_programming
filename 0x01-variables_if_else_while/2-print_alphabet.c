@@ -3,11 +3,12 @@
 
 /**
  * main - no description (testing this)
- * Return - Always (0) Success
+ * Return: Always (0) Success
  */
 int main(void)
 {
 	char alphabet = 'a';
+	
 	for (; alphabet <= 'z'; alphabet++)
 		putchar(alphabet);
 	putchar('\n');
