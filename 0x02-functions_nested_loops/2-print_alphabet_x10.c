@@ -10,7 +10,6 @@ void print_alphabet_x10(void)
 {
 	char alphabet;
 	int lines = 10;
-
 	while (lines > 0)
 	{
 		alphabet = 'a';
