@@ -6,7 +6,7 @@
  */
 void times_table(void)
 {
-	int additions = 0, rows = 0, cols, multiplication;
+	int addition = 0, rows = 0, cols, multiplication;
 
 	while (rows < 10)
 	{
