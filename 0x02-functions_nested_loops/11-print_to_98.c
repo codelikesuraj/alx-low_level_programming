@@ -11,8 +11,7 @@ void print_to_98(int n)
 
 	if (n <= limit)
 	{
-		do
-		{
+		do {
 			printf("%d", n);
 			if (n != limit)
 				printf(", ");
