@@ -16,7 +16,7 @@ void print_to_98(int n)
 			if (n != limit)
 				printf(", ");
 			n++;
-		} while (n < limit)
+		} while (n < limit);
 	} else if (n > limit)
 	{
 		while (n != limit)
