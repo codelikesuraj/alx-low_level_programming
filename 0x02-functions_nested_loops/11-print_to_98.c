@@ -10,6 +10,7 @@ void print_to_98(int n)
 	int limit = 98;
 
 	if (n <= limit)
+	{
 		do
 		{
 			printf("%d", n);
