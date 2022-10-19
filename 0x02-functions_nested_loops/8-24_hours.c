@@ -28,7 +28,7 @@ void jack_bauer(void)
 				if (num3 == 5)
 					break;
 			}
-			if (num1 ==2 && num2 == 3)
+			if (num1 == 2 && num2 == 3)
 				break;
 		}
 	}
