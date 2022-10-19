@@ -8,15 +8,18 @@
 void print_to_98(int n)
 {
 	int limit = 98;
-
-	if (n <= limit)
+	
+	if (n == limit)
+		printf("%d", n);
+	else if (n < limit)
 	{
-		do {
+		while (n <= limit)
+		{
 			printf("%d", n);
 			if (n != limit)
 				printf(", ");
 			n++;
-		} while (n < limit);
+		}
 	} else if (n > limit)
 	{
 		while (n >= limit)
@@ -27,5 +30,6 @@ void print_to_98(int n)
 			n--;
 		}
 	}
+	printf("\n");
 }
 
