@@ -7,38 +7,24 @@
  */
 void print_to_98(int n)
 {
-	int counter = 0;
 	int limit = 98;
 
-	if (n < 0)
-	{
-		while (counter <= -n + limit)
+	if (n <= limit)
+		do
 		{
 			printf("%d", n);
 			if (n != limit)
 				printf(", ");
 			n++;
-			counter++;
-		}
-	} else if (n >= 0 && n <= limit)
+		} while (n < limit)
+	} else if (n > limit)
 	{
-		while (counter <= limit - n)
-		{
-			printf("%d", n);
-			if (n != limit)
-				printf(", ");
-			n++;
-			counter++;
-		}
-	} else if (n >= 0 && n > limit)
-	{
-		while (counter <= n - limit)
+		while (n != limit)
 		{
 			printf("%d", n);
 			if (n != limit)
 				printf(", ");
 			n--;
-			counter++;
 		}
 	}
 }
