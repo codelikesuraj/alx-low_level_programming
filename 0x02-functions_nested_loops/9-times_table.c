@@ -20,7 +20,13 @@ void times_table(void)
 			if (cols > 0)
 			{
 				multiplication += addition;
-				_putchar(multiplication + '0');
+				if (multiplication < 10)
+					_putchar(multiplication + '0');
+				if (multiplication > 9)
+				{
+					_putchar(multiplication / 10 + '0');
+					_putchar(multiplication % 10 + '0');
+				}
 			}
 			if (cols < 9)
 			{
