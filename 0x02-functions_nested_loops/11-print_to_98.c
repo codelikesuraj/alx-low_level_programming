@@ -19,7 +19,7 @@ void print_to_98(int n)
 		} while (n < limit);
 	} else if (n > limit)
 	{
-		while (n != limit)
+		while (n >= limit)
 		{
 			printf("%d", n);
 			if (n != limit)
