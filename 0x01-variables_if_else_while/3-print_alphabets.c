@@ -3,7 +3,7 @@
 /**
  * main - Print all the alphabets
  *
- * Description: Prints all the alphabets 
+ * Description: Prints all the alphabets
  * Return: 0 on success
  */
 int main(void)
