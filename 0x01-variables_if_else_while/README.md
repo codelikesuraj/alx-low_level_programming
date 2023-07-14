@@ -8,3 +8,4 @@
 |[5-print_numbers.c](5-print_numbers.c)|A program that prints all single digit numbers of base 10 starting from '0', followed by a new line.|
 |[6-print_numberz.c](6-print_numberz.c)|A program that prints all single digit numbers of base 10 starting from '0', followed by a new line. Variable type 'char' is not allowed and only 'putchar' (used twice only) can be used.|
 |[7-print_tebahpla.c](7-print_tebahpla.c)|A program that prints the lowercase alphabets in reverse, followed by a new line using only 'putchar' which is allowed only twice in the code.|
+|[8-print_base16.c](8-print_base16.c)|A program that prints all the numbers of base 16 in lowercase, followed by a new line. Only 'putchar()' can be used in this function and can only be used three times.|
