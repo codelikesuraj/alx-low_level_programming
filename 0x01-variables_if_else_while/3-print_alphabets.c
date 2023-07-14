@@ -12,9 +12,9 @@ int main(void)
 
 	for (c = 'a'; c <= 'Z'; c++)
 	{
+		putchar(c);
 		if (c == 'z')
 			c = 'A';
-		putchar(c);
 	}
 	putchar('\n');
 	return (0);
