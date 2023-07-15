@@ -11,3 +11,4 @@
 |[8-print_base16.c](8-print_base16.c)|A program that prints all the numbers of base 16 in lowercase, followed by a new line. Only 'putchar()' can be used in this function and can only be used three times.|
 |-|-|
 |[100-print_comb3.c](100-print_comb3.c)|A program that prints all possible different combinations of two digits, separeted by ', ' using putchar (only max. 5 times) and not allowed to use any 'char' type. Note: '01' & '10' are considered as the same combination of the two digits '0' & '1'.|
+|[101-print_comb4.c](101-print_comb4.c)|A program that prints all possible different combinations of three digits, separeted by ', ' using putchar (only max. 6 times) and not allowed to use any 'char' type. Note: '012', '120', '102', 021', '201', & '201' are considered as the same combination of the three digits '0', '1' & '2'.|
