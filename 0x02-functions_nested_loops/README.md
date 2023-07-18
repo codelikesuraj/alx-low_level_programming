@@ -1,3 +1,5 @@
 |File|Description|
 |-|-|
-|[0-putchar](0-putchar)|Write a program that prints '\_putchar' followed by a newline.|
+|[0-putchar.c](0-putchar.c)|Write a program that prints '\_putchar' followed by a newline.|
+|[1-alphabet.c](1-alphabet.c)|A function that prints the alphabet, in lowercase, followed by a new line. Prototype is 'void print_alphabet(void)' and '\_putchar' can only be used twice.|
+|[2-print_alphabet_x10.c](2-print_alphabet_x10.c)|A function that prints all the alphabets in lowercase followed by a new line 10 times. Prototype is 'void print_alphabet_x10(void)' and '\_putchar' can only be used twice.|
