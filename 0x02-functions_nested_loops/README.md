@@ -8,3 +8,4 @@
 |[5-sign.c](5-sign.c)|A function that prints the sign of a number. Prototype is 'int print_sign(int n)' and returns '1' and print '+' if 'n' is greater than zero, returns '0' and prints '0' if 'n' is zero and returns '-1' and prints '-' if 'n' is less than zero.|
 |[6-abs.c](6-abs.c)|A function that computes the absolute value of an integer. Prototype is 'int \_abs(int)'.|
 |[7-print_last_digit.c](7-print_last_digit.c)|A function that prints the last digit of a number. Prototype is 'int print_last_digit(int)' and return the value of the last digit.|
+|[8-24_hours.c](24-hourse.c)|A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59. Prototype is 'void jack_bauer(void)'.|
