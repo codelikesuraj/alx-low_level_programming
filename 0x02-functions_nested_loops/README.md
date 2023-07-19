@@ -9,3 +9,4 @@
 |[6-abs.c](6-abs.c)|A function that computes the absolute value of an integer. Prototype is 'int \_abs(int)'.|
 |[7-print_last_digit.c](7-print_last_digit.c)|A function that prints the last digit of a number. Prototype is 'int print_last_digit(int)' and return the value of the last digit.|
 |[8-24_hours.c](24-hourse.c)|A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59. Prototype is 'void jack_bauer(void)'.|
+|[10-main.c](10-main.c)|A function that adds two integers and returns the result. Prototype is 'int add (int, int)'.|
