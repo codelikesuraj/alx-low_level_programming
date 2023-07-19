@@ -7,8 +7,6 @@
  */
 void print_to_98(int n)
 {
-	int counter = 1;
-
 	if (n == 0)
 	{
 		printf("%d\n", n);
