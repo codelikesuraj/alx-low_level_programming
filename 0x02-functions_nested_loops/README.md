@@ -10,3 +10,4 @@
 |[7-print_last_digit.c](7-print_last_digit.c)|A function that prints the last digit of a number. Prototype is 'int print_last_digit(int)' and return the value of the last digit.|
 |[8-24_hours.c](24-hourse.c)|A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59. Prototype is 'void jack_bauer(void)'.|
 |[10-add.c](10-add.c)|A function that adds two integers and returns the result. Prototype is 'iint add (int, int)'.|
+|[11-print_to_98.c](11-print_to_98.c)|A function that prints all natural numbers from 'n' to '98', followed by a new line. Prototype is 'void print_to_98(int n). Numbers are separated by a comma, followed by a space. The first number should be 'n' all the way to '98'. Using the standard library is permitted.|
