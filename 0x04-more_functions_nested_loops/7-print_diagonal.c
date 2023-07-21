@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_line - draw a diagonal line in the terminal
- * @n: number of times '/' should be printed
- * Description: print '/' n times followed by a new line
+ * print_diagonal - draw a diagonal line in the terminal
+ * @n: number of times '\' should be printed
+ * Description: print '\' n times followed by a new line
  */
 void print_diagonal(int n)
 {
