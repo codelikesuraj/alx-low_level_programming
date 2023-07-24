@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _print_rev - prints a string followed by a new line to stdout
+ * print_rev - prints a string followed by a new line to stdout
  * @s: string to be printed
  */
-void _print_rev(char *s)
+void print_rev(char *s)
 {
 	int len = 0;
 	int n;
