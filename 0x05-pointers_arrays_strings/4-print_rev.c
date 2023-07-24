@@ -2,7 +2,7 @@
 
 /**
  * _print_rev - prints a string followed by a new line to stdout
- * @str: string to be printed
+ * @s: string to be printed
  */
 void _print_rev(char *s)
 {
