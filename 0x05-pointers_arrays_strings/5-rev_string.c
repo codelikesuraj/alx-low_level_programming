@@ -14,6 +14,7 @@ void rev_string(char *s)
 
 	for (i = 0; i < n; i++)
 	{
+		_putchar('a');
 		c = s[i];
 		s[i] = s[n];
 		s[n] = c;
