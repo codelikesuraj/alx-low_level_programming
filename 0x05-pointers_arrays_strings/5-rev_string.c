@@ -10,7 +10,7 @@ void rev_string(char *s)
 	int i, n = 0;
 
 	while (s[n] != '\0')
-		_putchar(s[n++]);
+		n++;
 
 	for (i = 0; i <= n; i++)
 		s[i] = temp[n - i];
