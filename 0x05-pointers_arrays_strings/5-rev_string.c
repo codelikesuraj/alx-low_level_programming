@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverses a string
- * @s: string to be reversed 
+ * @s: string to be reversed
  */
 void rev_string(char *s)
 {
@@ -13,4 +13,4 @@ void rev_string(char *s)
 		n++;
 
 	for (i = 0; i <= n; i++)
-		s[i] = temp[n-i];
+		s[i] = temp[n - i];
