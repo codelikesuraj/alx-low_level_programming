@@ -6,3 +6,4 @@
 |[3-puts.c](3-puts.c)|A function that prints a string, followed by a new line, to 'stdout'. Prototype is 'void \_puts(char \*str)'.|
 |[4-print_rev.c](4-print_rev.c)|A function that prints a string, in reverse, followed by a new line. Prototype is 'void print_rev(char \*s)'.|
 |[5-rev_string.c](5-rev_string.c)|A function that reverses a string. Prototype is 'void rev_string(char \*s)'.|
+|[6-puts2.c](6-puts2.c)|A function that prints every other character of a string, starting with the first character, followed by a new line. Prototype is 'void puts2(char \*str)'.|
