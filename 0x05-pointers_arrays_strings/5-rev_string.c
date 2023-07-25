@@ -13,8 +13,6 @@ void rev_string(char *s)
 	{
 		*(temp + 1) = s[n];
 		n++;
-		_putchar(s[n]);
-		_putchar(temp[n]);
 	}
 
 	for (i = 0; i < n; i++)
@@ -22,10 +20,10 @@ void rev_string(char *s)
 
 	for (i = 0; i <= n; i++)
 		_putchar(s[n]);
-
+	_putchar('\n');
 	for (i = 0; i <= n; i++)
 		_putchar(temp[n]);
-
-
 	_putchar('\n');
+	_putchar('\n');
+
 }
