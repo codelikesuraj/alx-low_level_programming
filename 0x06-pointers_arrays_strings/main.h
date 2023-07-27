@@ -7,4 +7,5 @@ char *rot13(char *str);
 char *string_toupper(char *str);
 int _putchar(char c);
 int _strcmp(char *s1, char *s2);
+void print_number(int n);
 void reverse_array(int *a, int n);
