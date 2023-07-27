@@ -7,3 +7,4 @@
 |[4-rev_array.c](4-rev_array.c)|A function that reverses the content of an array of integers. Prototype is 'void reverse_array(int \*a, int n)', where n is the number of elements of the array.|
 |[5-string_toupper.c](5-string_toupper.c)|A function that changes all lowercase letters of a string to uppercase. Prototype is 'char \*string_toupper(char \*str)'.|
 |[6-cap_string.c](6-cap_string.c)|A function that capitalizes all words of a string. Prototype is 'char \*cap_string(char \*str)'. Separators of words: space, tabulation, new line, ',', ';', '.', '!', '?', '"', '(', ')', '{', and '}'.|
+|[7-leet.c](7-leet.c)|A function that encodes a string into '1337'. Letters 'a' & 'A' should be replaced by '4', 'e' & 'E' by '3', 'o' & 'O' by '0', 't' & 'T' by '7', & 'l' & 'L' by '1'. Prototype is 'char \*leet(char \*)'. 'If' should only be used once in the code, 'switch' and ternary operations are not allowed.|
