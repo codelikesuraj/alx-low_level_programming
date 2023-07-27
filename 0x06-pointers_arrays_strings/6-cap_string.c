@@ -16,10 +16,16 @@ char *cap_string(char *str)
 	while (str[i] != '\0')
 	{
 		s = str[i];
-		if ((i > 0) && (is_separator(str[i - 1]) == 1) && s >= 97 && s <= 122)
+		if (s >= 'a' && s <= 'z')
 		{
-			printf("I am a separator\n");
-			str[i] -= 32;
+			if (i == 0)
+			{
+				str[i] -= 32;
+			}
+			else if ((i > 0) && (is_separator(str[i - 1]) == 1))
+			{
+				str[i] -= 32;
+			}
 		}
 		i++;
 	}
