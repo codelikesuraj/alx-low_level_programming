@@ -9,3 +9,4 @@
 |[6-size.c](6-size.c)|A C program that prints the size of various types on the computer it is compiled and run on. The program returns 0 and uses the package 'libc6-dev-i38c' which is used as the '-m32' gcc option.|
 |-|-|
 |[100-intel](100-intel)|A script that generates the assembly code (Intel syntax) of a C code and save in output file. The C file name is sved in '$CFILE' and the output file should be named the same as the C file but with the extension '.s' instead of '.c'.|
+|[101-quote.c](101-quote.c)|A C program that prints exactly 'and that piece of art is useful" - Dora Korpar, 2015-10-19', followed by a new line, to the standard error. Program should return '1' and any functions listed in the 'NAME' section of the man (3) 'printf' or man (3) 'puts'.|
