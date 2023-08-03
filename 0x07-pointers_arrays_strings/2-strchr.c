@@ -14,7 +14,7 @@ char *_strchr(char *s, char c)
 		len_s++;
 
 	if (c == '\0' || len_s < 1)
-		return ('\0');
+		return (&s[len_s]);
 
 	while (1)
 	{
@@ -22,6 +22,6 @@ char *_strchr(char *s, char c)
 			return (&s[i]);
 		i++;
 		if (i >= len_s)
-			return (&s[len_s]);
+			return ('\0');
 	}
 }
