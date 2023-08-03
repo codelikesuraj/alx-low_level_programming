@@ -21,7 +21,7 @@ char *_strstr(char *haystack, char *needle)
 		len_needle++;
 
 	if (len_haystack < 1 || len_needle < 1)
-		return (&haystack[len_haystack]);
+		return (haystack);
 
 	for (i = 0; i < len_haystack; i++)
 	{
