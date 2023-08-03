@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * _strchr - locate the first occurence of a charcter in a string
  * @s: string to be checked
