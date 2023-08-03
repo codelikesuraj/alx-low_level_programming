@@ -4,4 +4,5 @@
 |[1-memcpy.c](1-memcpy.c)|A function that copies memory area. Prototype is 'char \*\_memcpy(char \*dest, char \*src, unsigned int n)'. The '\_memcpy()' function copies 'n' bytes from memory area 'src' to memory area 'dest'. Returns a pointer to 'dest'.|
 |[2-strchr.c](2-strchr.c)|A function that locates a character in a string. Prototype is 'char \*\_strchr(char \*s, char c)'. Returns a pointer to the first occurence of the character 'c' in the string 's', or 'NULL' if the charcter is not found.|
 |[3-strspn.c](3-strspn.c)|A function that gets the length of a prefix substring. Prototype is 'unsigned int \_strspn(char \*s, char \*accept)'. Returns the number of bytes in the inital segment of 's' which consist only of bytes from 'accept'.|
+|[4-strpbrk](4-strpbrk)|A function that searches a string for any set of bytes. Prototype is 'char \*\_strpbrk(char \*s, char \*accept)'. The '\_strpbrk()' function locates the first occurence in the string 's' of any of the bytes in the string 'accept'. Returns a pointer to the byte in 's' that matches one of the bytes in 'accept', or 'NULL' if no such byte is found.|
 
