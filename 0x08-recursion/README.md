@@ -4,4 +4,5 @@
 [1-print_rev_recursion.c](1-print_rev_recursion.c)|A function that prints a string in reverse, followed by a new line. Prototype is 'void \_print_rev_recursion(char \*s)'.|
 [2-strlen_recursion.c](2-strlen_recursion.c)|A function that returns the length of a string. Prototype is 'int \_strlen_recursion(char \*s)'.|
 [3-factorial.c](3-factorial.c)|A function that returns the factorial of a given number. Prototype is 'int factorial(int n)'.|
+[4-pow_recursion.c](4-pow_recursion.c)|A function that returns the value of 'x' raised to the power of 'y'. The prototype is 'int \_pow_recursion(int x, int y)'. If 'y' is lower than '0', the function should return '-1'.|
 |-|-|
