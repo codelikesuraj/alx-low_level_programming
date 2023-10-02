@@ -1,5 +1,4 @@
-#include "_puts.c"
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints the name of the file
@@ -10,7 +9,6 @@
 int main(int argc, char *argv[])
 {
 	(void)argc;
-	_puts(argv[0]);
-	_putchar('\n');
+	printf("%s\n", argv[0]);
 	return (0);
 }
