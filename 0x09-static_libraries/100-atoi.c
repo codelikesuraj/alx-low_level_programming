@@ -7,5 +7,6 @@
  */
 int _atoi(char *s)
 {
+	s[0] = 'x';
 	return (0);
 }
