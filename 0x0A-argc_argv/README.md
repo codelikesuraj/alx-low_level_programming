@@ -1,4 +1,5 @@
 |File|Description|
 |-|-|
-|[0-whatsmyname.c](0-whatsmyname.c)|A program that prints its name, followed by a new line. If the program is renamed, it will still print the new name, without having to compile it again. The path should not be removed before the name of the program.|
+||[0-whatsmyname.c](0-whatsmyname.c)|A program that prints its name, followed by a new line. If the program is renamed, it will still print the new name, without having to compile it again. The path should not be removed before the name of the program.|
+|[1-args.c](1-args.c)|A program that prints the number of arguments passed into it. It should print a number, followed by a new line.|
 |-|-|
