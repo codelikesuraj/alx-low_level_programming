@@ -1,6 +1,21 @@
-#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
+
+/**
+ * isNumeric - checks if a string is a
+ * numeric value
+ * @str: string to be checked
+ * Return: 1 if is numeric, 0 otherwise
+ */
+int isNumeric(char *str)
+{
+	for (; *str != '\0'; str++)
+	{
+		if (*str < 48 || *str > 57)
+			return (0);
+	}
+	return (1);
+}
 
 /**
  * main - prints the sum of the
@@ -19,14 +34,12 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			int arg = atoi(argv[i]);
-
-			if (arg == 0)
+			if (!isNumeric(argv[i]))
 			{
 				printf("Error\n");
 				return (1);
 			}
-			sum += arg;
+			sum += atoi(argv[i]);
 		}
 	}
 	printf("%d\n", sum);
