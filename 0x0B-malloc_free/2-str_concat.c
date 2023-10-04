@@ -24,8 +24,6 @@ char *str_concat(char *s1, char *s2)
 		l2 = 0;
 	else
 		l2 = _strlen(s2);
-	printf("Length s1: %d\n", l1);
-	printf("Length s2: %d\n", l2);
 	l3 = l1 + l2 + 1;
 	concat = malloc(l3 * sizeof(char));
 	if (concat == NULL)
