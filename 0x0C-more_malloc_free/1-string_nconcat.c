@@ -1,6 +1,5 @@
 #include "main.h"
 #include "_strlen.c"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -14,15 +13,14 @@ unsigned int get_strlen(char *str)
 	if (str == NULL)
 		return (0);
 
-	printf("Length of \"%s\": %d\n", str, _strlen(str));
 	return (_strlen(str));
 }
 
 /**
- * str_nconcat - concatenate two strings
+ * string_nconcat - concatenate two strings
  * @s1: first string
  * @s2: second string
- * n: number of bytes
+ * @n: number of bytes
  *
  * Return: pointer to the concatenated
  * string or NULL on failure
@@ -46,10 +44,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		concat[i] = s1[i];
 
 	for (i = 0; i < l2; i++)
-	{
-		printf("s2[%d] => %c\n", i, s2[i]);
 		concat[i + l1] = s2[i];
-	}
 
 	concat[l3] = '\0';
 
