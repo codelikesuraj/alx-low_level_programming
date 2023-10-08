@@ -1,5 +1,4 @@
 #include "main.h"
-#include <limits.h>
 #include <stdlib.h>
 
 /**
@@ -15,11 +14,14 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
+	void *alloc;
+
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	if (size > (INT_MAX / nmemb))
+	alloc = calloc(nmemb, size);
+	if (alloc == NULL)
 		return (NULL);
 
-	return (NULL);
+	return (alloc);
 }
