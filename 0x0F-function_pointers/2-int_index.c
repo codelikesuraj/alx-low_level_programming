@@ -14,7 +14,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i, matches;
 
-	if (size <= 0 || array == NULL)
+	if (size <= 0 || array == NULL || !cmp)
 		return (-1);
 
 	matches = 0;
