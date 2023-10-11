@@ -1,4 +1,5 @@
 #include "dog.h"
+#include "_strcpy.c"
 #include "_strlen.c"
 #include <stdlib.h>
 
@@ -14,7 +15,7 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
-	int i, len_name, len_owner;
+	int len_name, len_owner;
 
 	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
@@ -41,15 +42,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	for (i = 0; i < len_name; i++)
-		dog->name[i] = name[i];
-	dog->name[i] = '\0';
-
+	dog->name = _strcpy(dog->name, name);
+	dog->name[len_name] = '\0';
 	dog->age = age;
-
-	for (i = 0; i < len_owner; i++)
-		dog->owner[i] = owner[i];
-	dog->owner[i] = '\0';
+	dog->owner = _strcpy(dog->owner, owner);
+	dog->owner[len_owner] = '\0';
 
 	return (dog);
 }
