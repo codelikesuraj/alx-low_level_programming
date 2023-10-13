@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 	)
 	{
 		printf("Error\n");
-		return (98);
+		return (99);
 	}
 
 	if ((strcmp(operator, "/") == 0 || strcmp(operator, "%") == 0) && (num2 == 0))
