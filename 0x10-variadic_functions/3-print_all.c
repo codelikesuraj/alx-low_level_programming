@@ -16,6 +16,8 @@ void print_all(const char * const format, ...)
 	va_list ap;
 
 	i = 0;
+	if (format == NULL)
+		return;
 	l = strlen(format);
 	va_start(ap, format);
 	while (i < l)
