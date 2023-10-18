@@ -95,5 +95,6 @@ void print_all(const char * const format, ...)
 		if (format[i])
 			printf("%s", separator);
 	}
+	va_end(args);
 	printf("\n");
 }
