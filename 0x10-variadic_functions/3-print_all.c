@@ -1,6 +1,61 @@
-#include "_strlen.c"
+#include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
+
+/**
+ * print_char - prints a character
+ * @arg: arguments list pointing to the
+ * integer to be printed
+ */
+void print_char(va_list arg)
+{
+	char c;
+
+	c = va_arg(arg, int);
+	printf("%c", c);
+}
+
+/**
+ * print_float - prints a float value
+ * @arg: arguments list pointing to the
+ * float to be printed
+ */
+void print_float(va_list arg)
+{
+	float f;
+
+	f = va_arg(arg, double);
+	printf("%f", f);
+}
+
+/**
+ * print_int - prints an integer value
+ * @arg: arguments list pointing to the
+ * float to be printed
+ */
+void print_int(va_list arg)
+{
+	int n;
+
+	n = va_arg(arg, int);
+	printf("%d", n);
+}
+
+
+/**
+ * print_string - prints a string
+ * @arg: arguments list pointing to the
+ * string to be printed
+ */
+void print_string(va_list arg)
+{
+	char *s;
+
+	s = va_arg(arg, char *);
+	if (s == NULL)
+		s = "(nil)";
+	printf("%s", s);
+}
 
 /**
  * print_all - prints anything
@@ -11,40 +66,35 @@
  */
 void print_all(const char * const format, ...)
 {
-	int i, l, valid;
-	char *s;
-	va_list ap;
+	int i = 0;
+	char *separator;
+	va_list args;
 
-	i = 0;
-	l = _strlen((char *)format);
-	va_start(ap, format);
-	while (i < l)
+	va_start(args, format);
+	while (format && format[i])
 	{
-		valid = 1;
+		separator = ", ";
 		switch (format[i])
 		{
 			case 'c':
-				printf("%c", va_arg(ap, int));
+				print_char(args);
 				break;
 			case 'i':
-				printf("%d", va_arg(ap, int));
+				print_int(args);
 				break;
 			case 'f':
-				printf("%f", va_arg(ap, double));
+				print_float(args);
 				break;
 			case 's':
-				s = va_arg(ap, char *);
-				if (s == NULL)
-					s = "(nil)";
-				printf("%s", s);
+				print_string(args);
 				break;
 			default:
-				valid = 0;
+				separator = "";
 				break;
 		}
-		if ((i < (l - 1)) && (valid == 1))
-			printf(", ");
 		i++;
+		if (format[i])
+			printf("%s", separator);
 	}
 	printf("\n");
 }
