@@ -1,6 +1,6 @@
+#include "_strlen.c"
 #include <stdarg.h>
 #include <stdio.h>
-#include <string.h>
 
 /**
  * print_all - prints anything
@@ -18,7 +18,7 @@ void print_all(const char * const format, ...)
 	i = 0;
 	if (format == NULL)
 		return;
-	l = strlen(format);
+	l = _strlen((char *)format);
 	va_start(ap, format);
 	while (i < l)
 	{
