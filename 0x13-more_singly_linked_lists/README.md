@@ -5,3 +5,4 @@
 |[2-add_nodeint.c](2-add_nodeint.c)|Write a function that adds a new node at the beginning of a 'listint_t' list. Prototype is 'listint_t \*add_nodeint(listint_t \*\*head, const int n);'. Return the address of the new element, or 'NULL' if it failed.|
 |[3-add_nodeint_end.c](3-add_nodeint_end.c)|Write a function that adds a new node at the end of a 'listint_t' list. Prototype is 'listint_t \*add_nodeint_end(listint_t \*\*head, cost int n);'. Return the address of the new element, or 'NULL' if it failed.|
 |[4-free_listint.c](4-free_listint.c)|Write a function that frees a listtint_t list. Prototype is 'void free_listint(listint_t \*head);'.|
+|[5-free_listint2.c](5-free_listint2.c)|Write a function that frees a listtint_t list. Prototype is 'void free_listint2(listint_t \*\*head);'. The function sets the head to NULL.|
