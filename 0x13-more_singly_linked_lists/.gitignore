@@ -1,0 +1,4 @@
+*test.c
+*.out
+*-test*
+_putchar.c
